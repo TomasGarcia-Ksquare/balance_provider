@@ -143,6 +143,7 @@ class CustomTextFormField extends StatelessWidget {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       child: TextFormField(
+        key: Key('TextFormField'),
         controller: controller,
         maxLines: maxLines,
         decoration: InputDecoration(

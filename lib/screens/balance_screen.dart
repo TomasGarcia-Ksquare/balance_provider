@@ -43,6 +43,7 @@ class BalanceScreen extends StatelessWidget {
                     height: 40,
                   ),
                   ElevatedButton(
+                    key: Key('createButton'),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
                     ),
